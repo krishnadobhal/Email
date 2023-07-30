@@ -54,7 +54,7 @@ body {
 }
 
 .box-form .left .overlay h1 {
-    font-size: 10vmax;
+    font-size: 4rem;
     line-height: 1;
     font-weight: 900;
     margin-top: 40px;
@@ -83,6 +83,7 @@ body {
 
 .box-form .right {
     padding: 40px;
+    text-align: center;
     overflow: hidden;
 }
 
