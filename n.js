@@ -30,7 +30,7 @@ app.post('/',(req,res)=>{
   };
   const josnData=JSON.stringify(data);
   const option={
-    auth: "user1:c1f8ba46292b9035e7d1e5fd1cc85577-us21",
+    auth: "Your API key",
     method: "POST"
   }
   const request=https.request(url,option,(response)=>{
@@ -53,7 +53,4 @@ app.listen(process.env.PORT || 3000,()=>{
   console.log("Listening");
 });
 
-//API key
-//c1f8ba46292b9035e7d1e5fd1cc85577-us21
 
-//d9c9525b1b
